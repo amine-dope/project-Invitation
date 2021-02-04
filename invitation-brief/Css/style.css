@@ -173,21 +173,26 @@ margin-top: 4%;
 
 .section-2{
 
-    margin-top: 60px;
+     margin-top: 10%;
 }
 
  .section-2__company{
 
- width: 80vw;
- margin: auto;
 
+ margin: auto; 
+ width: 100%;
+ margin: auto;
+ display: flex;
+ justify-content: space-around;
+ height: 10vh;
+ align-items: center;
  
   
     
 
 }
 .section-2__comp{
-
-    width: 120px;
+    height: 42px;
+    width: 140px;
 } 
 
