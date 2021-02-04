@@ -1,0 +1,193 @@
+*{
+
+padding: 0;
+box-sizing: border-box;
+
+
+}
+
+.container{
+    
+   display: flex;
+   justify-content: flex-start;
+    
+    width: 100%;
+
+ 
+ 
+}
+.container__navbar{
+ display: flex;
+  align-items: baseline;
+ font-family: "Poppins";
+ 
+ 
+  
+  
+  width: 100vw;
+  
+}
+.container li{
+
+    
+    
+}
+.container__invi{
+font-family: "Poppins";
+margin: 0 auto;
+cursor: pointer;
+
+}
+.container ul {
+
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-right: 25em;
+    font-size: 14px;
+}
+
+.container a{
+    text-decoration: none;
+    color: black;
+
+}
+.container__button{
+    margin:0 auto;
+    
+}
+
+.container__btn1{
+    font-family: "Poppins";
+    background: white;
+    border: none;
+    color: black;
+    padding: 3px 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.container__btn2{
+    color: white;
+    background: black;
+    border-radius: 5px ;
+    padding: 2px 8px ;
+    font-family: "Poppins";
+    cursor: pointer;
+
+}
+.list1{
+    border:0;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+.section{
+   display: flex;
+   align-items: start; 
+     height: 50vh; 
+    background: black;
+    color: white;
+    margin: 0 auto;
+    width: 97%;
+    font-family: "Poppins";
+    border-radius:.3em ;
+    
+    
+}
+.section__txt-area{
+    height: 50vh;
+    padding-left: 58px;
+    padding-top: 4%;
+    width: 59%;
+ 
+}
+.section__txt{
+
+    margin: 0 auto;
+    font-size: 29px;
+    padding-bottom: .1em;
+
+    
+}
+.section__txt-1{
+    font-size: 88%;
+    width: 84%;
+}
+
+
+.section__hero-img{
+
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -12px;
+  
+}
+.section img{
+
+    height: 67vh;
+}
+
+
+.section__box{
+display: flex;
+align-items: center;
+margin-top: 4%;
+
+}
+.section__searching{
+   
+    height: 7vh;
+    border-radius: 3px;
+    border: 0;
+    width: 55%;
+    padding-left: 8px;
+    font-size: 12px;
+    color: #A1A1A1;
+    padding-left: 8px;
+    font-family: "Poppins";
+    margin-right: 19px;
+    cursor: pointer;
+
+}
+.section option{
+    color: black;
+}
+.section__btn{
+    border-radius: 7px;
+    border: 0;
+    height: 39px;
+    width: 26%;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    background-image:linear-gradient(to right,#FB7B30,#A831A5) ;
+    cursor: pointer;
+    font-family: "Poppins";
+
+}
+
+.section-2{
+
+    margin-top: 60px;
+}
+
+ .section-2__company{
+
+ width: 80vw;
+ margin: auto;
+
+ 
+  
+    
+
+}
+.section-2__comp{
+
+    width: 120px;
+} 
+
