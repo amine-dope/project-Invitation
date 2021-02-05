@@ -71,10 +71,14 @@ cursor: pointer;
 .container__btn2{
     color: white;
     background: black;
-    border-radius: 5px ;
+    border-radius: 3px ;
     padding: 2px 8px ;
     font-family: "Poppins";
     cursor: pointer;
+    border: none;
+    font-size: 14px;
+    height: 10;
+    
 
 }
 .list1{
@@ -113,7 +117,7 @@ cursor: pointer;
     
 }
 .section__txt-1{
-    font-size: 88%;
+    font-size: 86%;
     width: 84%;
 }
 
@@ -265,3 +269,118 @@ h5::before {
 }
 
 
+
+.content-4{
+    display: flex;
+    align-items: start; 
+      height: 50vh; 
+     background: black;
+     color: white;
+     margin: 0 auto;
+     width: 97%;
+     font-family: "Poppins";
+     border-radius:.3em ;
+     margin-top: 8%;
+
+}
+.content-4__txt-area-2{
+
+    height: 50vh;
+    padding-left: 37px;
+    padding-top: 3%;
+    width: 66%;
+
+}
+
+.content-4__txt-2{
+
+    margin: 0 auto;
+    font-size: 29px;
+    margin-right: 19%;
+}
+.content-4__text-2{
+    font-size: 75%;
+    width: 84%;
+    display: flex;
+    flex-direction: row;
+    padding-right: 55%;
+    justify-content: space-between;
+    margin-top: 3px;
+
+
+
+}
+.content-4__text-3{
+
+        font-size: 75%;
+        width: 84%;
+        display: flex;
+        flex-direction: row;
+        padding-right: 65.5%;
+        justify-content: space-between;
+        margin-top: -10px;
+        
+    
+}
+.fa-check-circle{
+    display: flex;
+    align-items: center;  
+}
+.content-4__txt-area-2 i{
+
+    display: flex;
+    font-weight: 700;
+    font-size: 17px;
+}
+.content-4__box-2{
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+
+}
+
+.content-2__btn{
+
+    border-radius: 3px;
+    border: 0;
+    height: 34px;
+    width: 30%;
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+    background-image:white ;
+    cursor: pointer;
+    font-family: "Poppins";
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 10px;
+}
+.content-2__btn-2{
+    border-radius: 3px;
+    border: 0;
+    height: 34px;
+    width: 24%;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    background-image:linear-gradient(to right,#FB7B30,#A831A5) ;
+    cursor: pointer;
+    font-family: "Poppins";
+    
+}
+
+.content-4__signup-img{
+
+    width: 31vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -36px;
+  
+}
+.content-4 img{
+
+    height: 67vh;
+    margin-right: 63%;
+}
