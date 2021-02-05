@@ -196,3 +196,72 @@ margin-top: 4%;
     width: 140px;
 } 
 
+.content-3{
+    
+ display: flex;
+ font-family: "Poppins";
+ width: 96%;
+     margin: 0 auto;
+     
+    
+     align-items: center;
+     margin-top: 6%;
+
+}
+.content-3__pic1{
+
+   
+
+}
+.content-3__get{
+    margin: 0 auto;
+    margin: left;
+    margin-right: 6%;
+    margin-left: 6%;
+     height : 87vh;
+}
+.content-3__get h1{
+
+    padding-bottom: 7%;
+    font-size: 30px;
+}
+.content-3__get h5{
+    display: flex;
+    flex-direction: row;
+    
+    width:30%;
+    margin-bottom: -3%;
+}
+.content-3__get p{
+
+    font-size: 12px;
+    margin-right:1%;
+}
+.content-3__button{
+    width: 100%;
+    text-align: center;
+    margin-top: 16%;
+}
+.content-3__botn{
+    border-radius: 3px;
+    border: 0;
+    height: 34px;
+    width: 47%;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    background-image:linear-gradient(to right,#FB7B30,#A831A5) ;
+    cursor: pointer;
+    
+ }  
+.content-3__photos{
+    width: 26vw;
+    height: 45vw;
+
+}
+h5::before {
+    
+    content: url(/invitation-brief/images/checkmark.svg)"\00a0\00a0\00a0";    
+}
+
+
