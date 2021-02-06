@@ -183,17 +183,15 @@ margin-top: 4%;
  .section-2__company{
 
 
- margin: auto; 
- width: 100%;
- margin: auto;
- display: flex;
- justify-content: space-around;
- height: 10vh;
- align-items: center;
+     margin: auto; 
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
  
-  
-    
-
+ 
 }
 .section-2__comp{
     height: 42px;
@@ -202,14 +200,12 @@ margin-top: 4%;
 
 .content-3{
     
- display: flex;
- font-family: "Poppins";
- width: 97%;
-     margin: 0 auto;
-     
-    
-     align-items: center;
-     margin-top: 6%;
+    display: flex;
+    font-family: "Poppins";
+    width: 97%;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 6%;
 
 }
 .content-3__pic1{
@@ -222,7 +218,7 @@ margin-top: 4%;
     margin: left;
     margin-right: 6%;
     margin-left: 6%;
-     height : 87vh;
+    height : 87vh;
 }
 .content-3__get h1{
 
@@ -232,7 +228,6 @@ margin-top: 4%;
 .content-3__get h5{
     display: flex;
     flex-direction: row;
-    
     width:30%;
     margin-bottom: -3%;
 }
@@ -273,14 +268,14 @@ h5::before {
 .content-4{
     display: flex;
     align-items: start; 
-      height: 50vh; 
-     background: black;
-     color: white;
-     margin: 0 auto;
-     width: 97%;
-     font-family: "Poppins";
-     border-radius:.3em ;
-     margin-top: 8%;
+    height: 50vh; 
+    background: black;
+    color: white;
+    margin: 0 auto;
+    width: 97%;
+    font-family: "Poppins";
+    border-radius:.3em ;
+    margin-top: 8%;
 
 }
 .content-4__txt-area-2{
@@ -384,3 +379,70 @@ h5::before {
     height: 67vh;
     margin-right: 63%;
 }
+
+
+
+
+
+
+
+.gallery {
+    display: flex;
+    margin: 0 auto;
+    width: 97%;
+    margin-top: 8%;
+    height: 41vw;
+  }
+  
+ 
+  .gallery__images{
+   
+    height: 62vh;
+    
+  }
+  .gallery__images img {
+    
+    
+    width: 100%;
+  }
+
+  .gallery__images-2 {
+    
+    height: 69vh;
+    
+    width: 20vw;
+    margin-left: 1%;
+  }
+  .gallery__images-2 img{
+
+    width: 20vw;
+
+  }
+  .gallery__images-3{
+    width: 20vw;
+    margin-left: 1%;
+    height: 85%;
+  }
+  .gallery__images-3 img{
+
+    width: 20vw;
+    height: 40vh;
+    
+  }
+  .gallery__images-4{
+    margin-left: 1%;
+    height: 15%;
+    
+  }
+  .gallery__images-4 img{
+    width: 23vw;
+
+  }
+
+
+.gallery__footr-5{
+
+    padding-left: 17%;
+
+}
+
